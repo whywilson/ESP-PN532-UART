@@ -1,6 +1,8 @@
 #ifndef PN532_COMMAND_H
 #define PN532_COMMAND_H
 
+#include <cstdint>
+
 namespace PN532Cmd {
 static constexpr uint8_t Data_Preamble = 0x00;
 static constexpr uint8_t Data_Start_Code_0 = 0x00;
